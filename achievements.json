@@ -1,0 +1,30 @@
+{
+    "achievements": [
+        {
+            "id": "first_quest",
+            "name": "First Quest",
+            "description": "Complete your first mission",
+            "condition": {
+                "type": "missions_completed",
+                "value": 1
+            },
+            "reward": {
+                "xp": 20
+            },
+            "unlocked": false
+        },
+        {
+            "id": "backlog_hunter",
+            "name": "Backlog Hunter",
+            "description": "Complete 5 missions",
+            "condition": {
+                "type": "missions_completed",
+                "value": 5
+            },
+            "reward": {
+                "xp": 100
+            },
+            "unlocked": false
+        }
+    ]
+}

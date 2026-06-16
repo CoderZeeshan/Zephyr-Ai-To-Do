@@ -1,0 +1,28 @@
+{
+    "paths": {
+        "scientist": {
+            "probability": 25,
+            "trend": "stable",
+            "growthRate": 0
+        },
+        "engineer": {
+            "probability": 40,
+            "trend": "rising",
+            "growthRate": 2
+        },
+        "entrepreneur": {
+            "probability": 20,
+            "trend": "declining",
+            "growthRate": -1
+        }
+    },
+    "events": [],
+    "rules": {
+        "missionImpact": {
+            "ai_task": "scientist +2",
+            "coding_task": "engineer +3",
+            "business_task": "entrepreneur +3"
+        }
+    },
+    "dominantPath": "engineer"
+}

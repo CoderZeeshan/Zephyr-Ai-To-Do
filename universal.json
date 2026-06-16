@@ -1,0 +1,31 @@
+{
+    "meta": {
+        "lastUpdated": "auto",
+        "tickRate": "daily"
+    },
+    "universe": {
+        "age": 0,
+        "technologyLevel": 1,
+        "knownPlanets": 1,
+        "potential": 100
+    },
+    "civilizations": [
+        {
+            "name": "Python Republic",
+            "population": 100,
+            "stability": 100,
+            "development": 1
+        }
+    ],
+    "stats": {
+        "xp": 0,
+        "level": 1,
+        "shadow": 0
+    },
+    "evolution": {
+        "aiEngineer": 0,
+        "isroScientist": 0,
+        "creator": 0,
+        "entrepreneur": 0
+    }
+}

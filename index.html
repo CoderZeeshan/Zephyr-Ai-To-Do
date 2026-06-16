@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🚀 Zephyr OS v6</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🚀 ZEPHYR OS</h1>
+
+        <!-- PROFILE -->
+        <div class="card">
+            <h2>👤 Profile</h2>
+            <input id="profileInput" placeholder="Enter your name">
+            <button id="saveProfileBtn">Set Profile</button>
+            <p>Level: <span id="level">1</span></p>
+            <p>XP: <span id="xp">0</span></p>
+            <progress id="xpBar" max="100" value="0"></progress>
+        </div>
+
+
+
+        <!-- DAILY -->
+        <div class="card">
+            <h2>📈 Daily Progress</h2>
+            <progress id="dailyBar" max="100" value="0"></progress>
+            <p id="dailyText">0%</p>
+        </div>
+
+        <!-- AI -->
+        <div class="card">
+            <h2>🤖 AI Coach</h2>
+            <p id="coach">Loading...</p>
+        </div>
+
+        <!-- MISSION -->
+        <div class="card">
+            <h2>➕ Create Mission</h2>
+
+            <input id="taskInput" placeholder="Enter mission" />
+
+            <select id="taskXP">
+                <option value="10">Easy (+10 XP)</option>
+                <option value="25">Medium (+25 XP)</option>
+                <option value="50">Hard (+50 XP)</option>
+                <option value="100">Boss (+100 XP)</option>
+            </select>
+
+            <button id="addTaskBtn">Deploy Mission</button>
+        </div>
+
+        <!-- ACTIVE -->
+        <div class="card">
+            <h2>📜 Active Missions</h2>
+            <ul id="activeTasks"></ul>
+        </div>
+
+        <!-- BOSS -->
+        <div class="card">
+            <h2>⚔️ Boss Battles</h2>
+            <ul id="bossList"></ul>
+        </div>
+
+        <!-- UNIVERSE -->
+        <div class="card">
+            <h2>🌌 Universe System</h2>
+            <p>Universe Age: <span id="universeAge"></span></p>
+            <p>Civilization Level: <span id="civilization"></span></p>
+            <p>Known Planets: <span id="planets"></span></p>
+            <p>Potential: <span id="potential"></span>%</p>
+        </div>
+
+        <!-- EVOLUTION -->
+        <div class="card">
+            <h2>🌳 Evolution Tree</h2>
+            <p>AI Engineer: <span id="aiPath">0</span></p>
+            <p>ISRO Scientist: <span id="isroPath">0</span></p>
+            <p>Creator: <span id="creatorPath">0</span></p>
+            <p>Entrepreneur: <span id="entrePath">0</span></p>
+            <p><b>Dominant Path:</b> <span id="dominantPath">None</span></p>
+        </div>
+
+        <!-- ACHIEVEMENTS -->
+        <div class="card">
+            <h2>🏆 Achievements</h2>
+            <ul id="achievementList"></ul>
+        </div>
+
+        <!-- HISTORY -->
+        <div class="card">
+            <h2>📜 History</h2>
+            <ul id="completedTasks"></ul>
+        </div>
+
+        <!-- SHADOW -->
+        <div class="card">
+            <h2>👤 Shadow System</h2>
+            <p id="shadow">Loading...</p>
+        </div>
+
+        <!-- Leaderboard -->
+        <div class="card">
+            <h2>🏆 Leaderboard</h2>
+            <ul id="leaderboard"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

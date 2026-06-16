@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    background: #05060a;
+    color: #e6f1ff;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 🌌 cards */
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 245, 255, 0.15);
+    border-radius: 16px;
+    padding: 16px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba(0, 245, 255, 0.2);
+}
+
+/* inputs */
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #0b0f14;
+    color: white;
+    border: 1px solid #00f5ff33;
+    border-radius: 8px;
+}
+
+/* button */
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: linear-gradient(90deg, #00f5ff, #7c4dff);
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* lists */
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+li {
+    padding: 10px;
+    margin: 6px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 3px solid #00f5ff;
+}
+
+/* progress */
+progress {
+    width: 100%;
+    height: 10px;
+}
+
+progress::-webkit-progress-value {
+    background: linear-gradient(90deg, #00f5ff, #7c4dff);
+}
+
+#universeAge,
+#civilization,
+#planets,
+#potential {
+    color: #00f5ff;
+    font-weight: bold;
+}
+
+#aiPath,
+#isroPath,
+#creatorPath,
+#entrePath,
+#dominantPath {
+    color: #00f5ff;
+    font-weight: bold;
+}
